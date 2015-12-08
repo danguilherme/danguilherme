@@ -1,0 +1,17 @@
+{
+  "name": "danguilherme",
+  "version": "1.0.0",
+  "description": "Guilherme Ventura",
+  "main": "index.js",
+  "scripts": {
+    "postinstall": "cat info.json"
+  },
+  "keywords": [
+    "person",
+    "pessoa",
+    "contact",
+    "contato"
+  ],
+  "author": "Guilherme Ventura",
+  "license": "MIT"
+}
