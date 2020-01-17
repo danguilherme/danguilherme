@@ -1,9 +1,9 @@
 #!/usr/bin/env node
 
 var fs = require("fs");
+var chalk = require("chalk");
 
-fs.readFile("./info.json", "utf8", function(err, data) {
-  if (err) return console.log(err);
-  const object = JSON.parse(data);
-  console.log(`${object.website}`);
-});
+var link = chalk.cyanBright;
+var website = "https://danguilherme.github.io/en/";
+
+console.log(`\n\tAccess ${link(website)} to know more :)\n`);

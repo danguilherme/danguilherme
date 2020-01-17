@@ -6,15 +6,13 @@
   "bin": {
     "danguilherme": "./index.js"
   },
-  "scripts": {
-    "postinstall": "node ./index.js"
-  },
   "keywords": [
     "person",
-    "pessoa",
-    "contact",
-    "contato"
+    "contact"
   ],
   "author": "Guilherme Ventura",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^3.0.0"
+  }
 }
