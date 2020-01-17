@@ -1,10 +1,14 @@
 {
   "name": "danguilherme",
   "version": "1.0.5",
-  "description": "Guilherme Ventura",
+  "description": "Guilherme Ventura's information",
   "main": "index.js",
   "bin": {
     "danguilherme": "./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/danguilherme/danguilherme"
   },
   "keywords": [
     "person",
