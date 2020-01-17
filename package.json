@@ -12,7 +12,5 @@
   ],
   "author": "Guilherme Ventura",
   "license": "MIT",
-  "dependencies": {
-    "chalk": "^3.0.0"
-  }
+  "dependencies": {}
 }
