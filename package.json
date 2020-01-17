@@ -7,7 +7,7 @@
     "danguilherme": "./index.js"
   },
   "scripts": {
-    "postinstall": "danguilherme"
+    "postinstall": "node ./index.js"
   },
   "keywords": [
     "person",
