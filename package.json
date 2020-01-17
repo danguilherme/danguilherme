@@ -3,8 +3,11 @@
   "version": "1.0.1",
   "description": "Guilherme Ventura",
   "main": "index.js",
+  "bin": {
+    "danguilherme": "./index.js"
+  },
   "scripts": {
-    "postinstall": "cat info.json"
+    "postinstall": "danguilherme"
   },
   "keywords": [
     "person",
